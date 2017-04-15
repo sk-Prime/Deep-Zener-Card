@@ -80,7 +80,7 @@ class gui(object):
         
         
         self.st=scrolledtext.ScrolledText(master,width=40,height=24,font="consolas 8")
-        self.st.insert('end',">> What will be the next card\n...Press that button\n")
+        self.st.insert('end',">> What will be the next card\n...Press that button or press key\n")
         self.st.tag_config('blue',foreground="blue")
         self.st.tag_config('red',foreground="red")
         self.st.tag_config('center',justify="center")
